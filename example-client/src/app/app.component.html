@@ -1,0 +1,10 @@
+<div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%">
+    <h1>WebsocketUtil Tester</h1>
+
+    <div style="width: 500px">
+        <span>Messages:</span>
+        <div *ngFor="let message of messages">
+            {{ message | json }}
+        </div>
+    </div>
+</div>
