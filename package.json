@@ -1,0 +1,14 @@
+{
+    "name": "websocket-util",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {},
+    "author": "Florian Molleker",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.8.7",
+        "ws": "^7.1.2"
+    }
+}
